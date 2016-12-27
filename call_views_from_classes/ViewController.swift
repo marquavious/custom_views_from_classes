@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // This connects our empty UIView from our StoryBoard
+    // This connects the empty UIView from our StoryBoard
     @IBOutlet weak var mainView: UIView!
     
     override func viewDidLoad() {
