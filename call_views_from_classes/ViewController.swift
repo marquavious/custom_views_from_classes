@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    // This connects the empty UIView from our StoryBoard
     @IBOutlet weak var mainView: UIView!
+    
+    /*
+     This ↑ connects the empty UIView from our StoryBoard.
+     The mainView can be any UIView we want to show it on
+     We could make the view programaticly or connect the view from the
+     story board (as we did in this example)
+    */
     
     override func viewDidLoad() {
         super.viewDidLoad()
